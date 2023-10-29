@@ -1,0 +1,42 @@
+{
+  "name": "assessment-03",
+  "version": "1.0.0",
+  "description": "Weather service project",
+  "main": "index.ts",
+  "scripts": {
+    "watch": "tsc -w -p ./",
+    "start": "nodemon index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluecomet1994/assessment-03.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Typescript",
+    "Express"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bluecomet1994/assessment-03/issues"
+  },
+  "homepage": "https://github.com/bluecomet1994/assessment-03#readme",
+  "dependencies": {
+    "@types/body-parser": "^1.19.4",
+    "@types/cors": "^2.8.15",
+    "@types/express": "^4.17.20",
+    "@types/morgan": "^1.9.7",
+    "@types/node-fetch": "^2.6.7",
+    "axios": "^1.5.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
